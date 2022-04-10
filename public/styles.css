@@ -1,0 +1,237 @@
+.background-set {
+    background: #E5E5E5;
+    height: 2450px;
+}
+
+.top_image {
+    width: 100%;
+    position: absolute;
+    height: 364px;
+    top: 0px;
+    background: linear-gradient(268.44deg, #6750A4 0.97%, #65E7E7 100.03%);
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+}
+
+.heading {
+    font-family: 'Roboto', sans-serif;
+    font-size: 44px;
+    font-weight: 400;
+    position: relative;
+    height: 55.33px;
+    top: 204.55px;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.Search-bar {
+    position: absolute;
+    width: 48%;
+    height: 72px;
+    left: 26%;
+    top: 330px;
+
+    background: #FFFFFF;
+    border-radius: 100px;
+}
+
+.tabs {
+    position: absolute;
+    display: flex;
+    top: 420px;
+    margin-left: 42%;
+    /* allign the tabs in the center .. abhi jugaar hai bas not responsive abhi */
+}
+
+
+.tab-1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 24px;
+
+    position: static;
+    width: 109px;
+    height: 44px;
+    top: 0px;
+
+    /* M3/sys/light/primary */
+
+    background: #6750A4;
+    border-radius: 100px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 16px;
+}
+
+.tab-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 24px;
+
+    position: static;
+    width: 109px;
+    height: 44px;
+    top: 0px;
+
+    background: rgba(31, 31, 31, 0.12);
+    border-radius: 100px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 0px 16px;
+}
+
+.card-1 {
+    position: absolute;
+    width: 25%;
+    top: 530px;
+    height: 580px;
+    left: 7.5%;
+
+    background: #FFFFFF;
+    border: 0.8px solid rgba(0, 0, 0, 0.2);
+    box-sizing: border-box;
+    border-radius: 4px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    /* margin: 0px 56px; */
+}
+
+.card-2 {
+    position: absolute;
+    top: 530px;
+    width: 25%;
+    height: 580px;
+    left: 37.5%;
+
+    background: #FFFFFF;
+    border: 0.8px solid rgba(0, 0, 0, 0.2);
+    box-sizing: border-box;
+    border-radius: 4px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    /* margin: 0px 56px; */
+}
+
+.card-3 {
+    position: absolute;
+    top: 530px;
+    width: 25%;
+    height: 580px;
+    right: 7.5%;
+
+    background: #FFFFFF;
+    border: 0.8px solid rgba(0, 0, 0, 0.2);
+    box-sizing: border-box;
+    border-radius: 4px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    /* margin: 0px 56px; */
+}
+
+.card_image {
+    width: 94%;
+    margin-left: 3%;
+    margin-top: 3%;
+    height: 200px;
+}
+
+.card-title {
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 20px;
+    line-height: 26px;
+    /* identical to box height */
+    margin-top: 3%;
+    margin-left: 3%;
+    margin-bottom: 3.5%;
+    color: #444444;
+}
+
+.card-description {
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 24px;
+    margin-left: 3%;
+    margin-right: 3%;
+    margin-bottom: 2.5%;
+    color: rgba(68, 68, 68, 0.8);
+}
+
+.faculty-heading {
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 0;
+    font-size: 16px;
+    line-height: 21px;
+    margin-left: 3%;
+    margin-right: 3%;
+    color: rgba(68, 68, 68, 0.6);
+}
+
+.faculty-name {
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 21px;
+    margin-top: 2%;
+    margin-left: 3%;
+    margin-right: 3%;
+
+    color: rgba(68, 68, 68, 0.8);
+}
+
+.details {
+    position: absolute;
+    width: 94%;
+    margin-left: 3%;
+    margin-right: 3%;
+    top: 515px;
+}
+
+.button-text {
+    position: absolute;
+    top: 528px;
+    font-family: 'Heebo';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 23px;
+text-align: center;
+margin-left: 39%;
+color: #FFFFFF;
+}
+
+.row-2{
+    top: 1170px;
+}
+
+.row-3{
+    top: 1810px;
+}
