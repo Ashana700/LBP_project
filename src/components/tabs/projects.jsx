@@ -1,8 +1,8 @@
 import React from "react";
-import Card_image1 from "../images/card_image-1.png";
-import Button_image from "../images/button-image.png";
+import Card_image1 from "../../images/card_image-1.png";
+import Button_image from "../../images/button-image.png";
 
-function Content() {
+function Projects() {
   return (
     <div className="content">
       <div className="row-1">
@@ -105,4 +105,4 @@ function Content() {
   );
 }
 
-export default Content;
+export default Projects;

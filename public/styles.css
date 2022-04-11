@@ -3,7 +3,19 @@
     height: 2450px;
 }
 
-.top_image {
+.logo{
+    position: absolute;
+    width: 104px;
+    height: 104px;
+    left: 698px;
+    top: 56px;
+}
+.l1{
+    position: absolute;
+left: 117.31px;
+top: -164.77px;
+}
+.top {
     width: 100%;
     position: absolute;
     height: 364px;
@@ -16,11 +28,20 @@
     font-family: 'Roboto', sans-serif;
     font-size: 44px;
     font-weight: 400;
-    position: relative;
-    height: 55.33px;
+    position: absolute;
+    left: 434.68px;
     top: 204.55px;
     color: #FFFFFF;
     text-align: center;
+}
+.heading-part
+{
+    position: absolute;
+    width: 39px;
+    height: 8px;
+    left: 782px;
+    top: 230px;
+    background: #FFFFFF;  
 }
 
 .Search-bar {
