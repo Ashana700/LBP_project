@@ -46,7 +46,7 @@ const Prof_1 = () => {
           aria-describedby="modal-modal-description"
         >
           <Box>
-          <Prof_1_details/>
+          <Prof_ j1_details/>
           </Box>
          
         </Modal>

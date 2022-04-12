@@ -17,10 +17,11 @@ const Tabs=()=> {
   return (
     <div>
     <div className="tabs">
-    <div  className={activeTab === "tab1" ? "tab-1" : ""}
-          onClick={handleTab1}> Projects </div>
-    <div  className={activeTab === "tab2" ? "tab-2" : ""}
-          onClick={handleTab2}> Faculty </div>
+    <div  className={activeTab === "tab1" ? "tab-1-highlight" : "tab-1"}
+          onClick={handleTab1}>
+          <div classname="text-tab1">Projects </div></div> 
+    <div  className={activeTab === "tab2" ? "tab-2-highlight" : "tab-2"}
+          onClick={handleTab2}>  <div classname="text-tab2">Faculty </div> </div>
     </div>
     <div className="outlet">
        {activeTab === "tab1" ? <Projects /> : <Faculties/>}

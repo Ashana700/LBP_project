@@ -71,60 +71,189 @@
   top: 23.5%;
   bottom: 14.58%;
 }
-.tabs {
-  position: absolute;
-  display: flex;
-  top: 420px;
-  margin-left: 42%;
-  /* allign the tabs in the center .. abhi jugaar hai bas not responsive abhi */
+.tabs{
+    display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+
+position: absolute;
+width: 226px;
+height: 44px;
+left: 607px;
+top: 422px;
+
 }
 
-.tab-1 {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  padding: 12px 24px;
+.tab-1-highlight {    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 24px;
+    
+    position: static;
+    width: 109px;
+    height: 44px;
+    left: 0px;
+    top: 0px;
+    
+    /* M3/sys/light/primary */
+    
+    background: #6750A4;
+    border-radius: 100px;
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 16px;
+   
+}
+.tab-1 {    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 24px;
+    
+    position: static;
+    width: 109px;
+    height: 44px;
+    left: 0px;
+    top: 0px;
+    
+    /* M3/sys/light/primary */
+    
+    background: rgba(31, 31, 31, 0.12);
+    border-radius: 100px;
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 16px;
+   
+}
+.text-tab1{
 
-  position: static;
-  width: 109px;
-  height: 44px;
-  top: 0px;
+    position: static;
+width: 61px;
+height: 20px;
+left: calc(50% - 61px/2);
+top: calc(50% - 20px/2);
 
-  /* M3/sys/light/primary */
+font-family: 'Heebo';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 20px;
+/* identical to box height, or 125% */
 
-  background: #6750a4;
-  border-radius: 100px;
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.1px;
 
-  /* Inside auto layout */
+/* M3/sys/light/on-primary */
 
-  flex: none;
-  order: 0;
-  flex-grow: 0;
-  margin: 0px 16px;
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 10px 0px;
+
 }
 
 .tab-2 {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  padding: 12px 24px;
+    
+    display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 12px 24px;
 
-  position: static;
-  width: 109px;
-  height: 44px;
-  top: 0px;
+position: static;
+width: 101px;
+height: 44px;
+left: 125px;
+top: 0px;
 
-  background: rgba(31, 31, 31, 0.12);
-  border-radius: 100px;
+background: rgba(31, 31, 31, 0.12);
+border-radius: 100px;
 
-  /* Inside auto layout */
+/* Inside auto layout */
 
-  flex: none;
-  order: 1;
-  flex-grow: 0;
-  margin: 0px 16px;
+flex: none;
+order: 1;
+flex-grow: 0;
+margin: 0px 16px;
+
+}
+.tab-2-highlight {
+    
+    display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 12px 24px;
+
+position: static;
+width: 101px;
+height: 44px;
+left: 125px;
+top: 0px;
+
+background: #6750A4;
+border-radius: 100px;
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
+margin: 0px 16px;
+
+}
+.text-tab2{
+    position: static;
+left: 24px;
+right: 24px;
+top: 27.27%;
+bottom: 27.27%;
+
+font-family: 'Heebo';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 20px;
+/* identical to box height, or 125% */
+
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.1px;
+
+/* M3/sys/light/on-surface */
+
+color: #1C1B1F;
+
+opacity: 0.38;
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 8px 0px;
+
+
 }
 
 .card-1 {
