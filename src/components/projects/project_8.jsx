@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import Button_image from "../../images/button-image.png";
-import  Card_image1 from "../../images/card_image-1.png";
+import Card_image1 from "../../images/fahad.jpeg";
 import Modal from "@mui/material/Modal";
 import Box from "@mui/material/Box";
 
@@ -22,12 +22,13 @@ const Project_8 = () => {
   return (
     <>
       <div>
-
-      <img className="card_image" src={Card_image1} />
+        <img className="card_image" src={Card_image1} />
         <div className="card-title"> M/s FAHAD FABRICATION </div>
-        <div className="card-description"> Unavailability of raw materials and high costs while obtaining them from different suppliers.
-Fluctuating wood prices
-</div>
+        <div className="card-description">
+          {" "}
+          Unavailability of raw materials and high costs while obtaining them
+          from different suppliers. Fluctuating wood prices
+        </div>
         <div className="faculty-heading"> Faculty incharge </div>
         <div className="faculty-name"> Mr. Rahul Mullik </div>
         <img className="details" src={Button_image} />
@@ -40,7 +41,7 @@ Fluctuating wood prices
           aria-describedby="modal-modal-description"
         >
           <Box>
-            <Project_8_details/>
+            <Project_8_details />
           </Box>
         </Modal>
       </div>

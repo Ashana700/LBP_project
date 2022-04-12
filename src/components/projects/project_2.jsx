@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import Button_image from "../../images/button-image.png";
-import  Card_image1 from "../../images/card_image-1.png";
+import Card_image1 from "../../images/ayka_industries.jpg";
 import Modal from "@mui/material/Modal";
 import Box from "@mui/material/Box";
 
@@ -22,11 +22,14 @@ const Project_2 = () => {
   return (
     <>
       <div>
-
-      <img className="card_image" src={Card_image1} />
+        <img className="card_image" src={Card_image1} />
         <div className="card-title"> AYKA PAINTS PVT LIMITED </div>
-        <div className="card-description"> Import duties on raw materials lead to increase in input cost because of which small scale industries find it difficult to survive and compete with bigger established companies.
-</div>
+        <div className="card-description">
+          {" "}
+          Import duties on raw materials lead to increase in input cost because
+          of which small scale industries find it difficult to survive and
+          compete with bigger established companies.
+        </div>
         <div className="faculty-heading"> Faculty incharge </div>
         <div className="faculty-name"> Mr. Anshu Anand </div>
         <img className="details" src={Button_image} />
@@ -39,7 +42,7 @@ const Project_2 = () => {
           aria-describedby="modal-modal-description"
         >
           <Box>
-            <Project_2_details/>
+            <Project_2_details />
           </Box>
         </Modal>
       </div>

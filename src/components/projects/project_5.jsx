@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import Button_image from "../../images/button-image.png";
-import  Card_image1 from "../../images/card_image-1.png";
+import Card_image1 from "../../images/orbit.jpg";
 import Modal from "@mui/material/Modal";
 import Box from "@mui/material/Box";
 
@@ -22,14 +22,14 @@ const Project_5 = () => {
   return (
     <>
       <div>
-
-      <img className="card_image" src={Card_image1} />
-        <div className="card-title"> ORBIT CABLE INDIA PVT LTD
- </div>
-        <div className="card-description"> To deal with changing preference of product(innovation).
-    How can we help? 
- Assist them in managing their finance so that they can buy new technologies.
- </div>
+        <img className="card_image" src={Card_image1} />
+        <div className="card-title"> ORBIT CABLE INDIA PVT LTD</div>
+        <div className="card-description">
+          {" "}
+          To deal with changing preference of product(innovation). How can we
+          help? Assist them in managing their finance so that they can buy new
+          technologies.
+        </div>
         <div className="faculty-heading"> Faculty incharge </div>
         <div className="faculty-name"> Mr. Abhishek K Behera </div>
         <img className="details" src={Button_image} />
@@ -42,7 +42,7 @@ const Project_5 = () => {
           aria-describedby="modal-modal-description"
         >
           <Box>
-            <Project_5_details/>
+            <Project_5_details />
           </Box>
         </Modal>
       </div>

@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import Button_image from "../../images/button-image.png";
-import  Card_image1 from "../../images/card_image-1.png";
+import Card_image1 from "../../images/safeguard.png";
 import Modal from "@mui/material/Modal";
 import Box from "@mui/material/Box";
 
@@ -22,13 +22,13 @@ const Project_9 = () => {
   return (
     <>
       <div>
-
-      <img className="card_image" src={Card_image1} />
+        <img className="card_image" src={Card_image1} />
         <div className="card-title"> SAFEGUARD INDUSTRIES </div>
-        <div className="card-description"> Battery backup is the common problem
-Making good batteries at same cost
-By minimizing the fake alarm sounding
- </div>
+        <div className="card-description">
+          {" "}
+          Battery backup is the common problem Making good batteries at same
+          cost By minimizing the fake alarm sounding
+        </div>
         <div className="faculty-heading"> Faculty incharge </div>
         <div className="faculty-name"> Mr. Manoj Tripathi </div>
         <img className="details" src={Button_image} />
@@ -41,7 +41,7 @@ By minimizing the fake alarm sounding
           aria-describedby="modal-modal-description"
         >
           <Box>
-            <Project_9_details/>
+            <Project_9_details />
           </Box>
         </Modal>
       </div>
