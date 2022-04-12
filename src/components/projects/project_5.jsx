@@ -4,9 +4,9 @@ import  Card_image1 from "../../images/card_image-1.png";
 import Modal from "@mui/material/Modal";
 import Box from "@mui/material/Box";
 
-import Project_1_details from "../project_details/project_1";
+import Project_5_details from "../project_details/project_5";
 
-const Project_1 = () => {
+const Project_5 = () => {
   const [isModalVisible, setIsModalVisible] = useState(false);
 
   const showModal = () => {
@@ -24,11 +24,14 @@ const Project_1 = () => {
       <div>
 
       <img className="card_image" src={Card_image1} />
-        <div className="card-title"> ARUSAN PAINTS & COATING </div>
-        <div className="card-description"> Need of funds for raw materials, lack of funds forces them to contact traders instead of manufacturing on their own.
+        <div className="card-title"> ORBIT CABLE INDIA PVT LTD
+ </div>
+        <div className="card-description"> To deal with changing preference of product(innovation).
+    How can we help? 
+ Assist them in managing their finance so that they can buy new technologies.
  </div>
         <div className="faculty-heading"> Faculty incharge </div>
-        <div className="faculty-name"> Mr. Anshu Anand </div>
+        <div className="faculty-name"> Mr. Abhishek K Behera </div>
         <img className="details" src={Button_image} />
         <div className="button-text"> More details </div>
 
@@ -39,11 +42,11 @@ const Project_1 = () => {
           aria-describedby="modal-modal-description"
         >
           <Box>
-            <Project_1_details/>
+            <Project_5_details/>
           </Box>
         </Modal>
       </div>
     </>
   );
 };
-export default Project_1;
+export default Project_5;
