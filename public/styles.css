@@ -10,6 +10,7 @@
     left: 698px;
     top: 56px;
 }
+
 .l1{
     position: absolute;
 left: 117.31px;
@@ -54,7 +55,24 @@ top: -164.77px;
     background: #FFFFFF;
     border-radius: 100px;
 }
+.search_circle{
+    position: absolute;
+width: 56px;
+height: 56px;
+left: 1038px;
+top: 338px;
+border-radius: 50%;
 
+background: #6750A4;
+}
+.search{
+    position: absolute;
+left: 20.5%;
+right: 14.58%;
+top: 23.5%;
+bottom: 14.58%;
+    
+}
 .tabs {
     position: absolute;
     display: flex;
@@ -112,6 +130,7 @@ top: -164.77px;
     margin: 0px 16px;
 }
 
+
 .card-1 {
     position: absolute;
     width: 25%;
@@ -131,6 +150,7 @@ top: -164.77px;
     flex-grow: 0;
     /* margin: 0px 56px; */
 }
+
 
 .card-2 {
     position: absolute;
@@ -234,6 +254,7 @@ top: -164.77px;
     margin-left: 3%;
     margin-right: 3%;
     top: 515px;
+    
 }
 
 .button-text {
@@ -255,4 +276,20 @@ color: #FFFFFF;
 
 .row-3{
     top: 1810px;
+}
+.tags{
+    display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 6px 10px;
+
+position: static;
+width: 104px;
+height: 32px;
+left: 0px;
+top: 0px;
+
+background: rgba(103, 80, 164, 0.2);
+border-radius: 20px;
 }
