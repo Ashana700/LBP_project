@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import Button_image from "../../images/button-image.png";
-import image from "../../images/Akshay_diwedi.jpg";
+import image from "../../images/vidit_gaur.jpg";
 import Modal from "@mui/material/Modal";
 import Box from "@mui/material/Box";
 
@@ -23,7 +23,7 @@ const Prof_3 = () => {
     <>
       <div>
         <img className="card_image_prof" src={image} />
-        <div className="card-title"> Akshay dwiwedi</div>
+        <div className="card-title"> Vidit Gaur</div>
         <div className="card-description">
           {" "}
           Target of the project is to develop a working 3-D printer which can
