@@ -1,295 +1,302 @@
 .background-set {
-    background: #E5E5E5;
-    height: 2450px;
+  background: #e5e5e5;
+  height: 2450px;
 }
 
-.logo{
-    position: absolute;
-    width: 104px;
-    height: 104px;
-    left: 698px;
-    top: 56px;
+.logo {
+  position: absolute;
+  width: 104px;
+  height: 104px;
+  left: 698px;
+  top: 56px;
 }
 
-.l1{
-    position: absolute;
-left: 117.31px;
-top: -164.77px;
+.l1 {
+  position: absolute;
+  left: 117.31px;
+  top: -164.77px;
 }
 .top {
-    width: 100%;
-    position: absolute;
-    height: 364px;
-    top: 0px;
-    background: linear-gradient(268.44deg, #6750A4 0.97%, #65E7E7 100.03%);
-    transform: matrix(-1, 0, 0, 1, 0, 0);
+  width: 100%;
+  position: absolute;
+  height: 364px;
+  top: 0px;
+  background: linear-gradient(268.44deg, #6750a4 0.97%, #65e7e7 100.03%);
+  transform: matrix(-1, 0, 0, 1, 0, 0);
 }
 
 .heading {
-    font-family: 'Roboto', sans-serif;
-    font-size: 44px;
-    font-weight: 400;
-    position: absolute;
-    left: 434.68px;
-    top: 204.55px;
-    color: #FFFFFF;
-    text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-size: 44px;
+  font-weight: 400;
+  position: absolute;
+  left: 434.68px;
+  top: 204.55px;
+  color: #ffffff;
+  text-align: center;
 }
-.heading-part
-{
-    position: absolute;
-    width: 39px;
-    height: 8px;
-    left: 782px;
-    top: 230px;
-    background: #FFFFFF;  
+.heading-part {
+  position: absolute;
+  width: 39px;
+  height: 8px;
+  left: 782px;
+  top: 230px;
+  background: #ffffff;
 }
 
 .Search-bar {
-    position: absolute;
-    width: 48%;
-    height: 72px;
-    left: 26%;
-    top: 330px;
+  position: absolute;
+  width: 48%;
+  height: 72px;
+  left: 26%;
+  top: 330px;
 
-    background: #FFFFFF;
-    border-radius: 100px;
+  background: #ffffff;
+  border-radius: 100px;
 }
-.search_circle{
-    position: absolute;
-width: 56px;
-height: 56px;
-left: 1038px;
-top: 338px;
-border-radius: 50%;
+.search_circle {
+  position: absolute;
+  width: 56px;
+  height: 56px;
+  left: 1038px;
+  top: 338px;
+  border-radius: 50%;
 
-background: #6750A4;
+  background: #6750a4;
 }
-.search{
-    position: absolute;
-left: 20.5%;
-right: 14.58%;
-top: 23.5%;
-bottom: 14.58%;
-    
+.search {
+  position: absolute;
+  left: 20.5%;
+  right: 14.58%;
+  top: 23.5%;
+  bottom: 14.58%;
 }
 .tabs {
-    position: absolute;
-    display: flex;
-    top: 420px;
-    margin-left: 42%;
-    /* allign the tabs in the center .. abhi jugaar hai bas not responsive abhi */
+  position: absolute;
+  display: flex;
+  top: 420px;
+  margin-left: 42%;
+  /* allign the tabs in the center .. abhi jugaar hai bas not responsive abhi */
 }
 
-
 .tab-1 {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 12px 24px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 12px 24px;
 
-    position: static;
-    width: 109px;
-    height: 44px;
-    top: 0px;
+  position: static;
+  width: 109px;
+  height: 44px;
+  top: 0px;
 
-    /* M3/sys/light/primary */
+  /* M3/sys/light/primary */
 
-    background: #6750A4;
-    border-radius: 100px;
+  background: #6750a4;
+  border-radius: 100px;
 
-    /* Inside auto layout */
+  /* Inside auto layout */
 
-    flex: none;
-    order: 0;
-    flex-grow: 0;
-    margin: 0px 16px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 0px 16px;
 }
 
 .tab-2 {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 12px 24px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 12px 24px;
 
-    position: static;
-    width: 109px;
-    height: 44px;
-    top: 0px;
+  position: static;
+  width: 109px;
+  height: 44px;
+  top: 0px;
 
-    background: rgba(31, 31, 31, 0.12);
-    border-radius: 100px;
+  background: rgba(31, 31, 31, 0.12);
+  border-radius: 100px;
 
-    /* Inside auto layout */
+  /* Inside auto layout */
 
-    flex: none;
-    order: 1;
-    flex-grow: 0;
-    margin: 0px 16px;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  margin: 0px 16px;
 }
-
 
 .card-1 {
-    position: absolute;
-    width: 25%;
-    top: 530px;
-    height: 580px;
-    left: 7.5%;
+  position: absolute;
+  width: 25%;
+  top: 530px;
+  height: 580px;
+  left: 7.5%;
 
-    background: #FFFFFF;
-    border: 0.8px solid rgba(0, 0, 0, 0.2);
-    box-sizing: border-box;
-    border-radius: 4px;
+  background: #ffffff;
+  border: 0.8px solid rgba(0, 0, 0, 0.2);
+  box-sizing: border-box;
+  border-radius: 4px;
 
-    /* Inside auto layout */
+  /* Inside auto layout */
 
-    flex: none;
-    order: 0;
-    flex-grow: 0;
-    /* margin: 0px 56px; */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  /* margin: 0px 56px; */
 }
 
-
 .card-2 {
-    position: absolute;
-    top: 530px;
-    width: 25%;
-    height: 580px;
-    left: 37.5%;
+  position: absolute;
+  top: 530px;
+  width: 25%;
+  height: 580px;
+  left: 37.5%;
 
-    background: #FFFFFF;
-    border: 0.8px solid rgba(0, 0, 0, 0.2);
-    box-sizing: border-box;
-    border-radius: 4px;
+  background: #ffffff;
+  border: 0.8px solid rgba(0, 0, 0, 0.2);
+  box-sizing: border-box;
+  border-radius: 4px;
 
-    /* Inside auto layout */
+  /* Inside auto layout */
 
-    flex: none;
-    order: 0;
-    flex-grow: 0;
-    /* margin: 0px 56px; */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  /* margin: 0px 56px; */
 }
 
 .card-3 {
-    position: absolute;
-    top: 530px;
-    width: 25%;
-    height: 580px;
-    right: 7.5%;
+  position: absolute;
+  top: 530px;
+  width: 25%;
+  height: 580px;
+  right: 7.5%;
 
-    background: #FFFFFF;
-    border: 0.8px solid rgba(0, 0, 0, 0.2);
-    box-sizing: border-box;
-    border-radius: 4px;
+  background: #ffffff;
+  border: 0.8px solid rgba(0, 0, 0, 0.2);
+  box-sizing: border-box;
+  border-radius: 4px;
 
-    /* Inside auto layout */
+  /* Inside auto layout */
 
-    flex: none;
-    order: 0;
-    flex-grow: 0;
-    /* margin: 0px 56px; */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  /* margin: 0px 56px; */
 }
 
 .card_image {
-    width: 94%;
-    margin-left: 3%;
-    margin-top: 3%;
-    height: 200px;
+  width: 94%;
+  margin-left: 3%;
+  margin-top: 3%;
+  height: 200px;
+}
+
+.card_image_prof {
+  width: 50%;
+  margin-left: 25%;
+  margin-top: 3%;
+  height: 200px;
+  border-radius: 50%;
+  border: 2px solid gray;
 }
 
 .card-title {
-    font-family: 'Heebo';
-    font-style: normal;
-    font-weight: 900;
-    font-size: 20px;
-    line-height: 26px;
-    /* identical to box height */
-    margin-top: 3%;
-    margin-left: 3%;
-    margin-bottom: 3.5%;
-    color: #444444;
+  font-family: "Heebo";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 20px;
+  line-height: 26px;
+  /* identical to box height */
+  margin-top: 3%;
+  margin-left: 3%;
+  margin-bottom: 3.5%;
+  color: #444444;
 }
 
 .card-description {
-    font-family: 'Heebo';
-    font-style: normal;
-    font-weight: 300;
-    font-size: 18px;
-    line-height: 24px;
-    margin-left: 3%;
-    margin-right: 3%;
-    margin-bottom: 2.5%;
-    color: rgba(68, 68, 68, 0.8);
+  font-family: "Heebo";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 24px;
+  margin-left: 3%;
+  margin-right: 3%;
+  margin-bottom: 2.5%;
+  color: rgba(68, 68, 68, 0.8);
+}
+
+.research {
+  margin-top: 3%;
 }
 
 .faculty-heading {
-    font-family: 'Heebo';
-    font-style: normal;
-    font-weight: 0;
-    font-size: 16px;
-    line-height: 21px;
-    margin-left: 3%;
-    margin-right: 3%;
-    color: rgba(68, 68, 68, 0.6);
+  font-family: "Heebo";
+  font-style: normal;
+  font-weight: 0;
+  font-size: 16px;
+  line-height: 21px;
+  margin-left: 3%;
+  margin-right: 3%;
+  color: rgba(68, 68, 68, 0.6);
 }
 
 .faculty-name {
-    font-family: 'Heebo';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 21px;
-    margin-top: 2%;
-    margin-left: 3%;
-    margin-right: 3%;
+  font-family: "Heebo";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 21px;
+  margin-top: 2%;
+  margin-left: 3%;
+  margin-right: 3%;
 
-    color: rgba(68, 68, 68, 0.8);
+  color: rgba(68, 68, 68, 0.8);
 }
 
 .details {
-    position: absolute;
-    width: 94%;
-    margin-left: 3%;
-    margin-right: 3%;
-    top: 515px;
-    
+  position: absolute;
+  width: 94%;
+  margin-left: 3%;
+  margin-right: 3%;
+  top: 515px;
 }
 
 .button-text {
-    position: absolute;
-    top: 528px;
-    font-family: 'Heebo';
-font-style: normal;
-font-weight: 500;
-font-size: 18px;
-line-height: 23px;
-text-align: center;
-margin-left: 39%;
-color: #FFFFFF;
+  position: absolute;
+  top: 528px;
+  font-family: "Heebo";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 23px;
+  text-align: center;
+  margin-left: 39%;
+  color: #ffffff;
 }
 
-.row-2{
-    top: 1170px;
+.row-2 {
+  top: 1170px;
 }
 
-.row-3{
-    top: 1810px;
+.row-3 {
+  top: 1810px;
 }
-.tags{
-    display: flex;
-flex-direction: row;
-justify-content: center;
-align-items: center;
-padding: 6px 10px;
+.tags {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 6px 10px;
 
-position: static;
-width: 104px;
-height: 32px;
-left: 0px;
-top: 0px;
+  position: static;
+  width: 104px;
+  height: 32px;
+  left: 0px;
+  top: 0px;
 
-background: rgba(103, 80, 164, 0.2);
-border-radius: 20px;
+  background: rgba(103, 80, 164, 0.2);
+  border-radius: 20px;
 }

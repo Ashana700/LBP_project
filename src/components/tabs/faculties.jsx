@@ -1,101 +1,49 @@
 import React from "react";
-import Card_image1 from "../../images/card_image-1.png";
-import Button_image from "../../images/button-image.png";
 import Prof_1 from "../faculties/Prof_1";
+import Prof_2 from "../faculties/Prof_2";
+import Prof_3 from "../faculties/Prof_3";
+import Prof_4 from "../faculties/Prof_4";
+import Prof_5 from "../faculties/Prof_5";
+import Prof_6 from "../faculties/Prof_6";
+import Prof_7 from "../faculties/Prof_7";
+import Prof_8 from "../faculties/Prof_8";
+import Prof_9 from "../faculties/Prof_9";
 
 function Faculties() {
   return (
     <div className="content">
       <div className="row-1">
-      <div className="card-1">
-        <Prof_1/>
-      </div>
-      <div className="card-2">
-      <img className="card_image" src={Card_image1} />
-        <div className="card-title"> Metal 3D Printer </div>
-        <div className="card-description"> Target of the project is to develop a working 3-D printer which can cater the need of small automobile parts in industry.  </div>
-        <div className="faculty-heading"> Faculty incharge </div>
-        <div className="faculty-name"> Mr. Akshay Diwedi. </div>
-        <div className="tags"></div>
-        <img className="details" src={Button_image} />
-        <div className="button-text"> More details </div>
-      </div>
-      <div className="card-3">
-      <img className="card_image" src={Card_image1} />
-        <div className="card-title"> Metal 3D Printer </div>
-        <div className="card-description"> Target of the project is to develop a working 3-D printer which can cater the need of small automobile parts in industry.  </div>
-        <div className="faculty-heading"> Faculty incharge </div>
-        <div className="faculty-name"> Mr. Akshay Diwedi. </div>
-        <div className="tags"></div>
-        <img className="details" src={Button_image} />
-        <div className="button-text"> More details </div>
-      </div>
+        <div className="card-1">
+          <Prof_1 />
+        </div>
+        <div className="card-2">
+          <Prof_2 />
+        </div>
+        <div className="card-3">
+          <Prof_3 />
+        </div>
       </div>
 
       <div className="card-1 row-2">
-        <img className="card_image" src={Card_image1} />
-        <div className="card-title"> Metal 3D Printer </div>
-        <div className="card-description"> Target of the project is to develop a working 3-D printer which can cater the need of small automobile parts in industry.  </div>
-        <div className="faculty-heading"> Faculty incharge </div>
-        <div className="faculty-name"> Mr. Akshay Diwedi. </div>
-        <div className="tags"></div>
-        <img className="details" src={Button_image} />
-        <div className="button-text"> More details </div>
+        <Prof_4 />
       </div>
       <div className="card-2 row-2">
-      <img className="card_image" src={Card_image1} />
-        <div className="card-title"> Metal 3D Printer </div>
-        <div className="card-description"> Target of the project is to develop a working 3-D printer which can cater the need of small automobile parts in industry.  </div>
-        <div className="faculty-heading"> Faculty incharge </div>
-        <div className="faculty-name"> Mr. Akshay Diwedi. </div>
-        <div className="tags"></div>
-        <img className="details" src={Button_image} />
-        <div className="button-text"> More details </div>
+        <Prof_5 />
       </div>
       <div className="card-3 row-2">
-      <img className="card_image" src={Card_image1} />
-        <div className="card-title"> Metal 3D Printer </div>
-        <div className="card-description"> Target of the project is to develop a working 3-D printer which can cater the need of small automobile parts in industry.  </div>
-        <div className="faculty-heading"> Faculty incharge </div>
-        <div className="faculty-name"> Mr. Akshay Diwedi. </div>
-        <div className="tags"></div>
-        <img className="details" src={Button_image} />
-        <div className="button-text"> More details </div>
+        <Prof_6 />
       </div>
 
       <div className="card-1 row-3">
-        <img className="card_image" src={Card_image1} />
-        <div className="card-title"> Metal 3D Printer </div>
-        <div className="card-description"> Target of the project is to develop a working 3-D printer which can cater the need of small automobile parts in industry.  </div>
-        <div className="faculty-heading"> Faculty incharge </div>
-        <div className="faculty-name"> Mr. Akshay Diwedi. </div>
-        <div className="tags"></div>
-        <img className="details" src={Button_image} />
-        <div className="button-text"> More details </div>
+        <Prof_7 />
       </div>
       <div className="card-2 row-3">
-      <img className="card_image" src={Card_image1} />
-        <div className="card-title"> Metal 3D Printer </div>
-        <div className="card-description"> Target of the project is to develop a working 3-D printer which can cater the need of small automobile parts in industry.  </div>
-        <div className="faculty-heading"> Faculty incharge </div>
-        <div className="faculty-name"> Mr. Akshay Diwedi. </div>
-        <div className="tags"></div>
-        <img className="details" src={Button_image} />
-        <div className="button-text"> More details </div>
+        <Prof_8 />
       </div>
       <div className="card-3 row-3">
-      <img className="card_image" src={Card_image1} />
-        <div className="card-title"> Metal 3D Printer </div>
-        <div className="card-description"> Target of the project is to develop a working 3-D printer which can cater the need of small automobile parts in industry.  </div>
-        <div className="faculty-heading"> Faculty incharge </div>
-        <div className="faculty-name"> Mr. Akshay Diwedi. </div>
-        <div className="tags"></div>
-        <img className="details" src={Button_image} />
-        <div className="button-text"> More details </div>
+        <Prof_9 />
       </div>
-
     </div>
-    
   );
 }
 
