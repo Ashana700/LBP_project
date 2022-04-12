@@ -1,10 +1,10 @@
 import React, { useState } from "react";
 import Button_image from "../../images/button-image.png";
-import image from "../../images/Akshay_diwedi.jpg";
+import image from "../../images/ashish_yadav.jpg";
 import Modal from "@mui/material/Modal";
 import Box from "@mui/material/Box";
 
-import Prof_9_details from "../faculties_details/Prof_1";
+import Prof_9_details from "../faculties_details/Prof_9";
 
 const Prof_9 = () => {
   const [isModalVisible, setIsModalVisible] = useState(false);
@@ -23,19 +23,31 @@ const Prof_9 = () => {
     <>
       <div>
         <img className="card_image_prof" src={image} />
-        <div className="card-title"> Akshay dwiwedi</div>
-        <div className="card-description">
+        <div className="card-title"> Ashish Yadav</div>
+        {/* <div className="card-description">
           {" "}
-          Target of the project is to develop a working 3-D printer which can
-          cater the need of small automobile parts in industry.{" "}
+          Advanced Manufacturing Processes, Nontraditional Micro-machining,
+          Metal Matrix Composites, Primary and Secondary Processing of MMC,
+          Quality Management, QFD for service sector.{" "}
+        </div> */}
+        <div className="faculty-heading">
+          {" "}
+          Department of Chemical Engineering{" "}
         </div>
-        <div className="faculty-heading"> Faculty incharge </div>
-        <div className="faculty-name"> Mr. Akshay Diwedi. </div>
-        <ul>
+        <div className="faculty-name"> ashish@ch.iitr.ac.in </div>
+        <div className="faculty-heading research"> Research fields </div>
+        <div className="faculty-name">
+          {" "}
+          Renewable Energy, Electrochemical Energy Storage and Conversion,
+          Sustainable Hydrogen and Fuel Cell Technology, Electrochemical and
+          Chemiresistive Sensors, Carbon Nanomaterials, Microbial
+          Electrochemical Systems, Wastewater Treatment,{" "}
+        </div>
+        {/* <ul>
           <li className="tags">3D modelling</li>
           <li className="tags">3D modelling</li>
           <li className="tags">3D modelling</li>
-        </ul>
+        </ul> */}
 
         <img className="details" src={Button_image} onClick={showModal} />
         <div className="button-text"> More details </div>
