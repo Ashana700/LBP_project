@@ -45,9 +45,7 @@ function Projects() {
       <div className="card-3 row-3">
          <Project_9 />
       </div>
-
     </div>
-    
   );
 }
 

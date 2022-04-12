@@ -30,11 +30,11 @@ const Prof_2 = () => {
           Metal Matrix Composites, Primary and Secondary Processing of MMC,
           Quality Management, QFD for service sector.{" "}
         </div> */}
-        <div className="faculty-heading"> Department </div>
-        <div className="faculty-name">
+        <div className="faculty-heading">
           {" "}
           Mechanical and Industrial Engineering{" "}
         </div>
+        <div className="faculty-name"> rahul.mulik@me.iitr.ac.in </div>
         <div className="faculty-heading research"> Research fields </div>
         <div className="faculty-name">
           {" "}
