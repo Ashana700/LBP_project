@@ -7,7 +7,7 @@
   position: absolute;
   height: 104px;
   width: 104px;
-  left: 698px;
+  left: 700px;
   top: 56px;
 }
 
@@ -67,7 +67,7 @@ top: 0px;
     position: absolute;
     width: 631.71px;
     height: 55.33px;
-    left: 404.68px;
+    left: 424.68px;
     top: 204.55px;
 
 }
@@ -75,7 +75,7 @@ top: 0px;
     position: absolute;
     width: 39px;
     height: 8px;
-    left: 752px;
+    left: 772px;
     top: 230px;
     
     background: #FFFFFF;
@@ -85,7 +85,7 @@ top: 0px;
     position: absolute;
     width: 706px;
     height: 72px;
-    left: 367px;
+    left: 387px;
     top: 330px;
 
   background: #ffffff;
@@ -95,7 +95,7 @@ top: 0px;
   position: absolute;
   width: 56px;
   height: 56px;
-  left: 1008px;
+  left: 1028px;
   top: 338px;
   border-radius: 50%;
 
@@ -104,7 +104,7 @@ top: 0px;
 .search {
     position: absolute;
     top: 354px;
-    left: 1024px;
+    left: 1044px;
 }
 .tabs{
     display: flex;
