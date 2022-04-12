@@ -5,14 +5,14 @@
 
 .logo {
   position: absolute;
-  width: 104px;
   height: 104px;
+  width: 104px;
   left: 698px;
   top: 56px;
 }
 
 .top {
-  width: 1440px;
+  width: 100%;
   position: absolute;
   height: 364px;
   top: 0px;
@@ -22,64 +22,46 @@
 
 
 .l1{
-position: absolute;
-left: 6.06%;
-right: 61.45%;
-top: -6.96%;
-bottom: 79.24%;
+    position: absolute;
+    left: 80px;
+    top: 0px;
 }
 .l2{
     position: absolute;
-left: 2.84%;
-right: 69.23%;
-top: -6.91%;
-bottom: 78.75%;
+    left: 45px;
+    top: 0px;
 }
 .l3{
     position: absolute;
-left: 1.65%;
-right: 75.18%;
-top: -6%;
-bottom: 79.36%;
+    left: 25px;
+    top: 0px;
 
 }
 .l4{
     position: absolute;
-left: 0%;
-right: 81.42%;
-top: -4.61%;
-bottom: 78.8%;
+    left: 0px;
+    top: 0px;
 }
 .r1{
     position: absolute;
-left: 71.67%;
-right: 9.75%;
-top: 18.9%;
-bottom: 55.29%;
+    right: 150px;
+    top: 0px;
 }
 .r2{
     position: absolute;
-left: 73.31%;
-right: 3.52%;
-top: 20.3%;
-bottom: 53.06%;
+    right: 50px;
+    top: 0px;
 }
+
 .r3{
     position: absolute;
-left: 74.51%;
-right: -2.43%;
-top: 21.2%;
-bottom: 50.63%;
+right: 0px;
+top: 0px;
 }
 .r4{
     position: absolute;
-left: 77.73%;
-right: -10.22%;
-top: 21.25%;
-bottom: 51.03%;
-
-background: rgba(255, 255, 255, 0.2);
-transform: matrix(1, 0, 0, -1, 0, 0);
+right: 0px;
+top: 0px;
 }
 .heading {
     position: absolute;
@@ -120,11 +102,9 @@ transform: matrix(1, 0, 0, -1, 0, 0);
   background: #6750a4;
 }
 .search {
-  position: absolute;
-  left: 20.5%;
-  right: 14.58%;
-  top: 23.5%;
-  bottom: 14.58%;
+    position: absolute;
+    top: 354px;
+    left: 1024px;
 }
 .tabs{
     display: flex;
@@ -157,6 +137,7 @@ top: 422px;
     
     background: #6750A4;
     border-radius: 100px;
+    color: #FFFFFF;
     
     /* Inside auto layout */
     
@@ -183,7 +164,8 @@ top: 422px;
     
     background: rgba(31, 31, 31, 0.12);
     border-radius: 100px;
-    
+    color: #1C1B1F;
+    opacity: 0.38;
     /* Inside auto layout */
     
     flex: none;
@@ -242,6 +224,8 @@ top: 0px;
 
 background: rgba(31, 31, 31, 0.12);
 border-radius: 100px;
+color: #1C1B1F;
+opacity: 0.38;
 
 /* Inside auto layout */
 
@@ -267,7 +251,7 @@ top: 0px;
 
 background: #6750A4;
 border-radius: 100px;
-
+color: #FFFFFF;
 /* Inside auto layout */
 
 flex: none;

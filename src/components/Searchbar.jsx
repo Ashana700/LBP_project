@@ -6,9 +6,9 @@ function Searchbar() {
   return (
     <div>
       <div className="Search-bar" />
-      <div className="search_circle" >
+      <div className="search_circle" ></div>
       <img className="search" src={search}/>
-      </div>
+      
 
     </div>
   );
