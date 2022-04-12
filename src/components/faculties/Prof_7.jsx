@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import Button_image from "../../images/button-image.png";
-import image from "../../images/Akshay_diwedi.jpg";
+import image from "../../images/vidit_gaur.jpg";
 import Modal from "@mui/material/Modal";
 import Box from "@mui/material/Box";
 
