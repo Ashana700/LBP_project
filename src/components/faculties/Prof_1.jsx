@@ -23,7 +23,7 @@ const Prof_1 = () => {
     <>
       <div>
         <img className="card_image_prof" src={image} />
-        <div className="card-title"> Akshay dwiwedi</div>
+        <div className="card-title"> Akshay dvivedi</div>
         {/* <div className="card-description">
           {" "}
           Advanced Manufacturing Processes, Nontraditional Micro-machining,
